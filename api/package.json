@@ -1,0 +1,42 @@
+{
+  "name": "emartech-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node.js",
+    "authentication",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.18.0",
+    "libphonenumber-js": "^1.10.58",
+    "mustache-express": "^1.3.2",
+    "nodemailer": "^6.9.12",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^4.28.20",
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.22"
+  }
+}
